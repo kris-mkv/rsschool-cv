@@ -5,7 +5,7 @@
 ### Contacts:
 
 + __Location:__ St. Petersburg, Russia
-+ __E-mail:__ [kmiakaeva@gmail.com](kmiakaeva@gmail.com)
++ __E-mail:__ kmiakaeva@gmail.com
 + __GitHub:__ [kris-mkv](https://github.com/kris-mkv)
 + __Telegram:__ [miakaeva](https://t.me/miakaeva)
 
@@ -14,11 +14,10 @@
 For me, web development is an area of interesting knowledge. I am goal oriented and eager to learn new skills. Therefore I want to develop in web development.
 
 #### Hobbies:
-
-Reading books: fantasy, psychology and others  
-Visiting art exhibitions  
-Learning web programming  
-Spending free time in nature
+    * Reading books: fantasy, psychology and others  
+    * Visiting art exhibitions  
+    * Learning web programming  
+    * Spending free time in nature  
 
 ### Skills:
 
