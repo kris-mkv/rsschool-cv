@@ -14,6 +14,7 @@
 For me, web development is an area of interesting knowledge. I am goal oriented and eager to learn new skills. Therefore I want to develop in web development.
 
 #### Hobbies:
+
     * Reading books: fantasy, psychology and others  
     * Visiting art exhibitions  
     * Learning web programming  
