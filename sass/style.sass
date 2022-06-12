@@ -1,0 +1,107 @@
+$white: rgb(255, 255, 255)
+$blue: rgb(170, 217, 255)
+$violet: rgba(162, 89, 255, 0.7)
+$grey: rgb(126, 124, 143)
+$shadow-grey: rgba(126, 124, 143, 0.231)
+$transparent-grey: rgba(126, 124, 143, 0.1)
+
+*
+    box-sizing: border-box
+    font: 400 18px / 1.5 "Open Sans", sans-serif
+    color: $white
+    scroll-behavior: smooth
+
+body
+    background: linear-gradient($blue, $violet) no-repeat
+
+.nav__list, .hard-skills__list, .soft-skills__list
+    margin-left: 0
+    padding-left: 0
+
+.nav__item, .hard-skills__item, .soft-skills__item
+    list-style-type: none
+
+a
+    text-decoration: none
+
+.container
+    max-width: 1000px
+    margin: 0 auto
+    box-shadow: $shadow-grey 0 0 10px
+
+.nav
+    width: 100%
+    padding: 18px 0
+
+    &__list
+        display: flex
+        justify-content: flex-end
+        margin: 0
+        padding: 0
+
+    &__item
+        padding-right: 20px
+
+    &__link:hover
+        text-decoration: underline
+        color: $grey
+        transition: 0.4s linear
+
+.header
+    display: flex
+    width: 100%
+
+    &__photo
+        width: 35%
+        padding: 20px
+        border-radius: 50%
+
+    &__name
+        width: 65%
+        padding: 20px
+        align-self: center
+        text-align: center
+
+        h1
+            margin: 16px 0
+            font-weight: 500
+            font-size: 60px
+            line-height: 60px
+
+        h2
+            margin: 16px 0
+            font-weight: 500
+            font-size: 32px
+            line-height: 32px
+
+.main
+    display: flex
+    width: 100%
+
+    .section__title
+        font-size: 24px
+        font-weight: 500
+        color: $grey
+
+    .aside
+        display: flex
+        flex-direction: column
+        width: 36%
+        padding: 20px
+
+    .main-info
+        display: flex
+        flex-direction: column
+        width: 64%
+        padding: 20px
+
+.block_grey
+    margin-top: 2.5%
+    padding: 8px
+    background-color: $transparent-grey
+    border-radius: 12px
+
+.footer
+    display: flex
+    justify-content: space-between
+    padding: 20px
