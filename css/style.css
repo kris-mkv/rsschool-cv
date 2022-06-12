@@ -2,13 +2,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font: 400 18px / 1.5 "Open Sans", sans-serif;
-  color: white;
+  color: black;
   scroll-behavior: smooth;
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#aad9ff), to(#a259ff)) no-repeat;
-  background: linear-gradient(#aad9ff, #a259ff) no-repeat;
+  background-color: #f0f8ff;
 }
 
 .nav__list, .hard-skills__list, .soft-skills__list {
@@ -21,20 +20,22 @@ body {
 }
 
 a {
+  color: #000000;
   text-decoration: none;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.09);
-  -webkit-box-shadow: rgba(126, 124, 143, 0.231) 0 0 10px;
-          box-shadow: rgba(126, 124, 143, 0.231) 0 0 10px;
+  -webkit-box-shadow: 0 0 10px rgba(126, 124, 143, 0.231);
+          box-shadow: 0 0 10px rgba(126, 124, 143, 0.231);
 }
 
 .nav {
   width: 100%;
   padding: 18px 0;
+  -webkit-box-shadow: 0 -2px 1px rgba(126, 124, 143, 0.231);
+          box-shadow: 0 -2px 1px rgba(126, 124, 143, 0.231);
 }
 
 .nav__list {
@@ -53,8 +54,8 @@ a {
 }
 
 .nav__link:hover {
+  color: #004F34;
   text-decoration: underline;
-  color: #7e7c8f;
   -webkit-transition: 0.4s linear;
   transition: 0.4s linear;
 }
@@ -64,6 +65,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-shadow: 0 6px 8px -3px rgba(126, 124, 143, 0.231);
+          box-shadow: 0 6px 8px -3px rgba(126, 124, 143, 0.231);
 }
 
 .header__photo {
@@ -93,6 +96,7 @@ a {
   font-weight: 500;
   font-size: 32px;
   line-height: 32px;
+  color: #a52a2a;
 }
 
 .main {
@@ -105,7 +109,14 @@ a {
 .main .section__title {
   font-size: 24px;
   font-weight: 500;
-  color: #7e7c8f;
+}
+
+.main .block_grey {
+  margin-top: 2.5%;
+  padding: 8px;
+  color: #f0f8ff;
+  background-color: rgba(126, 124, 143, 0.1);
+  border-radius: 12px;
 }
 
 .main .aside {
@@ -118,6 +129,12 @@ a {
           flex-direction: column;
   width: 36%;
   padding: 20px;
+  background-color: #a52a2a;
+  border-radius: 12px;
+}
+
+.main .aside section .section__title {
+  color: #f0f8ff;
 }
 
 .main .main-info {
@@ -132,11 +149,16 @@ a {
   padding: 20px;
 }
 
-.block_grey {
-  margin-top: 2.5%;
-  padding: 8px;
-  background-color: rgba(126, 124, 143, 0.1);
-  border-radius: 12px;
+.contacts__link {
+  color: #f0f8ff;
+}
+
+.contacts__link:hover {
+  color: #CCE6D7;
+}
+
+.courses__link:hover {
+  color: #004F34;
 }
 
 .footer {
@@ -147,4 +169,10 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px;
+  -webkit-box-shadow: 0 0 6px rgba(126, 124, 143, 0.231);
+          box-shadow: 0 0 6px rgba(126, 124, 143, 0.231);
+}
+
+.footer__link:hover {
+  color: #004F34;
 }

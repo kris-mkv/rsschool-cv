@@ -1,19 +1,19 @@
-$white: rgb(255, 255, 255)
-$transparent-white: rgba(255, 255, 255, 0.09)
-$blue: rgba(170, 217, 255, 1)
-$violet: rgba(162, 89, 255, 1)
-$grey: rgb(126, 124, 143)
+$alice-blue: #f0f8ff
+$brown: #a52a2a
+$black: #000000
+$dark-green: #004F34
+$light-green: #CCE6D7
 $shadow-grey: rgba(126, 124, 143, 0.231)
 $transparent-grey: rgba(126, 124, 143, 0.1)
 
 *
     box-sizing: border-box
     font: 400 18px / 1.5 "Open Sans", sans-serif
-    color: $white
+    color: black
     scroll-behavior: smooth
 
 body
-    background: linear-gradient($blue, $violet) no-repeat
+    background-color: $alice-blue
 
 .nav__list, .hard-skills__list, .soft-skills__list
     margin-left: 0
@@ -23,17 +23,18 @@ body
     list-style-type: none
 
 a
+    color: $black
     text-decoration: none
 
 .container
     max-width: 1000px
     margin: 0 auto
-    background-color: $transparent-white
-    box-shadow: $shadow-grey 0 0 10px
+    box-shadow: 0 0 10px $shadow-grey
 
 .nav
     width: 100%
     padding: 18px 0
+    box-shadow: 0 -2px 1px $shadow-grey
 
     &__list
         display: flex
@@ -45,13 +46,14 @@ a
         padding-right: 20px
 
     &__link:hover
+        color: #004F34
         text-decoration: underline
-        color: $grey
         transition: 0.4s linear
 
 .header
     display: flex
     width: 100%
+    box-shadow: 0 6px 8px -3px $shadow-grey
 
     &__photo
         width: 35%
@@ -75,6 +77,7 @@ a
             font-weight: 500
             font-size: 32px
             line-height: 32px
+            color: $brown
 
 .main
     display: flex
@@ -83,13 +86,24 @@ a
     .section__title
         font-size: 24px
         font-weight: 500
-        color: $grey
+
+    .block_grey
+        margin-top: 2.5%
+        padding: 8px
+        color: $alice-blue
+        background-color: $transparent-grey
+        border-radius: 12px
 
     .aside
         display: flex
         flex-direction: column
         width: 36%
         padding: 20px
+        background-color: $brown
+        border-radius: 12px
+
+        section .section__title
+            color: $alice-blue
 
     .main-info
         display: flex
@@ -97,13 +111,22 @@ a
         width: 64%
         padding: 20px
 
-.block_grey
-    margin-top: 2.5%
-    padding: 8px
-    background-color: $transparent-grey
-    border-radius: 12px
+.contacts
+    &__link
+        color: $alice-blue
+
+        &:hover
+            color: $light-green
+
+.courses
+    &__link:hover
+        color: $dark-green
 
 .footer
     display: flex
     justify-content: space-between
     padding: 20px
+    box-shadow: 0 0 6px $shadow-grey
+
+    &__link:hover
+        color: $dark-green
