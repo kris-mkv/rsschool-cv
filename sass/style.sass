@@ -1,6 +1,7 @@
 $white: rgb(255, 255, 255)
-$blue: rgb(170, 217, 255)
-$violet: rgba(162, 89, 255, 0.7)
+$transparent-white: rgba(255, 255, 255, 0.09)
+$blue: rgba(170, 217, 255, 1)
+$violet: rgba(162, 89, 255, 1)
 $grey: rgb(126, 124, 143)
 $shadow-grey: rgba(126, 124, 143, 0.231)
 $transparent-grey: rgba(126, 124, 143, 0.1)
@@ -27,6 +28,7 @@ a
 .container
     max-width: 1000px
     margin: 0 auto
+    background-color: $transparent-white
     box-shadow: $shadow-grey 0 0 10px
 
 .nav
