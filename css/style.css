@@ -150,12 +150,27 @@ a {
   padding: 20px;
 }
 
+.contacts_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .contacts__link {
   color: #f0f8ff;
 }
 
 .contacts__link:hover {
   color: #CCE6D7;
+}
+
+.contacts img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
 }
 
 .courses__link:hover {
