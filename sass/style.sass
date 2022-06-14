@@ -10,6 +10,7 @@ $shadow-grey: rgba(126, 124, 143, 0.231)
     box-sizing: border-box
     font: 400 18px / 1.5 "Open Sans", sans-serif
     scroll-behavior: smooth
+    border: 1px solid red
 
 body
     background-color: $alice-blue
@@ -149,6 +150,21 @@ a
 .courses
     &__link:hover
         color: $dark-green
+
+.projects
+    &__wrap
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+    &__container
+        width: 49%
+        margin-bottom: 8px
+
+    &__img
+        vertical-align: middle
+        width: 100%
+        height: 138px
 
 .footer
     display: flex
