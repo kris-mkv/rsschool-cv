@@ -1,15 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kristina Miakaeva</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
-</head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#link__about-me">About me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#link__courses">Courses</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#link__code">Code</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#link__projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
 
-<body>
+      <header class="header">
+        <img
+          class="header__photo"
+          src="assets/img/my-photo.jpeg"
+          alt="My photo"
+        />
+        <div class="header__name">
+          <h1>Kristina Miakaeva</h1>
+          <h2>Junior front-end developer</h2>
+        </div>
+      </header>
 
-</body>
+      <main class="main">
+        <aside class="aside">
+          <section class="contacts">
+            <h3 class="section__title">Contacts</h3>
+            <div class="contacts__location block_grey contacts_flex">
+              <img src="assets/img/logo/location.png" alt="Location icon" />St.
+              Petersburg, Russia
+            </div>
+            <div class="contacts__e-mail block_grey contacts_flex">
+              <img src="assets/img/logo/gmail.png" alt="E-mail icon" />
+              <a
+                class="contacts__link"
+                href="mailto:kmiakaeva@gmail.com"
+                target="_blank"
+                >kmiakaeva@gmail.com</a
+              >
+            </div>
+            <div class="contacts__telegram block_grey contacts_flex">
+              <img src="assets/img/logo/telegram.png" alt="Telegram icon" />
+              <a
+                class="contacts__link"
+                href="https://t.me/miakaeva"
+                target="_blank"
+                >@miakaeva</a
+              >
+            </div>
+            <div class="contacts__discord block_grey contacts_flex">
+              <img src="assets/img/logo/discord.png" alt="Discord icon" />
+              <a
+                class="contacts__link"
+                href="https://discord.com/users/443829976572100632"
+                target="_blank"
+                >kristina#2471</a
+              >
+            </div>
+          </section>
 
+          <section class="hard-skills">
+            <h3 class="section__title">Hard Skills</h3>
+            <ul class="hard-skills__list block_grey">
+              <li class="hard-skills__item">HTML</li>
+              <li class="hard-skills__item">CSS</li>
+              <li class="hard-skills__item">SASS/SCSS</li>
+              <li class="hard-skills__item">Bootstrap</li>
+              <li class="hard-skills__item">JavaScript</li>
+              <li class="hard-skills__item">GitHub</li>
+              <li class="hard-skills__item">Figma</li>
+            </ul>
+          </section>
+
+          <section class="soft-skills">
+            <h3 class="section__title">Soft Skills</h3>
+            <ul class="soft-skills__list block_grey">
+              <li class="soft-skills__item">Communicative</li>
+              <li class="soft-skills__item">Teamwork skills</li>
+              <li class="soft-skills__item">Self-organization</li>
+              <li class="soft-skills__item">Desire to constantly develop</li>
+            </ul>
+          </section>
+
+          <section class="languages">
+            <h3 class="section__title">Languages</h3>
+            <div class="languages__russian block_grey">Russian — Native</div>
+            <div class="languages__english block_grey">
+              English — Pre-Intermediate
+            </div>
+          </section>
+
+          <section class="hobbies">
+            <h3 class="section__title">Hobbies</h3>
+            <div class="hobbies__wrap">
+              <div class="hobbies__container">
+                <img
+                  class="hobbies__img"
+                  src="assets/img/hobbies/book.png"
+                  alt="Reading icon"
+                />
+                <p class="hobbies__text">Reading</p>
+              </div>
+              <div class="hobbies__container">
+                <img
+                  class="hobbies__img"
+                  src="assets/img/hobbies/web.png"
+                  alt="Web"
+                />
+                <p class="hobbies__text">Web</p>
+              </div>
+              <div class="hobbies__container">
+                <img
+                  class="hobbies__img"
+                  src="assets/img/hobbies/nature.png"
+                  alt="Nature icon"
+                />
+                <p class="hobbies__text">Nature</p>
+              </div>
+              <div class="hobbies__container">
+                <img
+                  class="hobbies__img"
+                  src="assets/img/hobbies/game.png"
+                  alt="Games icon"
+                />
+                <p class="hobbies__text">Games</p>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <div class="main-info">
+          <section class="about-me" id="link__about-me">
+            <h3 class="section__title">About me</h3>
+            <div class="about-me__info">
+              <p>
+                For me, web development is an area of interesting knowledge. I
+                am goal oriented and eager to learn new skills.
+              </p>
+              <p>Therefore I want to develop in web development.</p>
+            </div>
+          </section>
+
+          <section class="courses" id="link__courses">
+            <h3 class="section__title">Courses</h3>
+            <ul class="courses__list-completed">
+              <li class="courses__item">
+                <a
+                  class="courses__link"
+                  href="https://stepik.org/course/38218/info"
+                  target="_blank"
+                  >Web Development for Beginners: HTML and CSS</a
+                >
+              </li>
+              <li class="courses__item">
+                <a
+                  class="courses__link"
+                  href="https://www.udemy.com/course/webdeveloper/"
+                  target="_blank"
+                  >Web developer 2022</a
+                >
+              </li>
+            </ul>
+
+            <p>At the learning stage:</p>
+
+            <ul class="courses__list-unfinished">
+              <li class="courses__item">
+                <a
+                  class="courses__link"
+                  href="https://www.udemy.com/course/javascript_full/"
+                  target="_blank"
+                  >Full course on JavaScript + React - from scratch to the
+                  result</a
+                >
+              </li>
+              <li class="courses__item">
+                <a
+                  class="courses__link"
+                  href="https://rs.school/js-stage0/"
+                  target="_blank"
+                  >JavaScript/Front-end. Stage 0</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="code" id="link__code">
+            <h3 class="section__title">Code Example</h3>
+            <pre class="code__wrap">
+              <code>
+<span><span>function</span> <span class="code__title_brown">even_or_odd</span>(<span><span class="code__argument_blue">number</span></span>) </span>{
+  <span>if</span> (<span class="code__argument_blue">number</span> % <span class="code__number_green">2</span> === <span class="code__number_green">0</span>) {
+    <span>return</span> <span class="code__string_red">'Even'</span>;
+  } <span>else</span> {
+    <span>return</span> <span class="code__string_red">'Odd'</span>;
+  }
+}
+              </code>
+            </pre>
+          </section>
+
+          <section class="projects" id="link__projects">
+            <h3 class="section__title">Projects</h3>
+            <div class="projects__wrap">
+              <div class="projects__container">
+                <a
+                  class="projects__link"
+                  href="https://kris-mkv.github.io/interactive-rating-component-solution/"
+                  target="_blank"
+                  ><img
+                    class="projects__img"
+                    src="assets/img/my-projects/interactive-rating-component.jpg"
+                    alt="Interactive rating component solution"
+                /></a>
+              </div>
+              <div class="projects__container">
+                <a
+                  class="projects__link"
+                  href="https://kris-mkv.github.io/uber-eats/"
+                  target="_blank"
+                  ><img
+                    class="projects__img"
+                    src="assets/img/my-projects/uber-eats.jpg"
+                    alt="Uber Eats"
+                /></a>
+              </div>
+              <div class="projects__container">
+                <a
+                  class="projects__link"
+                  href="https://kris-mkv.github.io/scientific-personal-account/"
+                  target="_blank"
+                  ><img
+                    class="projects__img"
+                    src="assets/img/my-projects/scientific-personal-account.jpg"
+                    alt="Scientific personal account"
+                /></a>
+              </div>
+              <div class="projects__container">
+                <a
+                  class="projects__link"
+                  href="https://kris-mkv.github.io/to-do-list/"
+                  target="_blank"
+                  ><img
+                    class="projects__img"
+                    src="assets/img/my-projects/to-do-list.jpg"
+                    alt="TO-DO List"
+                /></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__rsschool">
+          <a class="footer__link" href="https://rs.school/js/" target="_blank"
+            ><img
+              class="footer__img"
+              src="assets/svg/rsschool.svg"
+              alt="RS School logo"
+          /></a>
+        </div>
+        <div class="footer__year">2022</div>
+        <div class="footer__github">
+          <a
+            class="footer__link"
+            href="https://github.com/kris-mkv"
+            target="_blank"
+            ><img
+              class="footer__img"
+              src="assets/img/logo/github.png"
+              alt="My GitHub page"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
