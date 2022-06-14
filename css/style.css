@@ -252,23 +252,17 @@ a {
   vertical-align: top;
 }
 
-.footer__rsschool .footer__link {
-  width: 84px;
-  height: 36px;
+.footer__img {
+  vertical-align: middle;
 }
 
-.footer__rsschool .footer__link img {
+.footer__rsschool img {
   width: 84px;
   height: 36px;
 }
 
 .footer__year {
   font-size: 20px;
-}
-
-.footer__github .footer__link {
-  width: 59px;
-  height: 44px;
 }
 
 .footer__github img {
