@@ -1,10 +1,12 @@
 $alice-blue: #f0f8ff
 $light-alice-blue: #f0f8ff1a
 $brown: #a52a2a
+$matte-brown: #ac3f40
 $black: #000000
 $dark-green: #004F34
 $light-green: #CCE6D7
-$shadow-grey: rgba(126, 124, 143, 0.231)
+$shadow-grey: #7e7c8f3b
+$blue: #0086b3
 
 *
     box-sizing: border-box
@@ -149,6 +151,27 @@ a
 .courses
     &__link:hover
         color: $dark-green
+
+.code
+    &__wrap
+        display: flex
+        justify-content: center
+        margin: 0
+        background-color: #ffffff
+        border-radius: 12px
+
+    &__title_brown
+        font-weight: 500
+        color: $brown
+
+    &__argument_blue
+        color: $blue
+
+    &__number_green
+        color: $dark-green
+
+    &__string_red
+        color: $matte-brown
 
 .projects
     &__wrap
