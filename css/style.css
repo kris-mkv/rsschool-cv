@@ -3,7 +3,6 @@
           box-sizing: border-box;
   font: 400 18px / 1.5 "Open Sans", sans-serif;
   scroll-behavior: smooth;
-  border: 1px solid red;
 }
 
 body {
